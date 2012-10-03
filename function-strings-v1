@@ -1,0 +1,5 @@
+# comma seperated file with a function and a regex per line.
+# the function is literal match that will then trigger a search when found in a backtrace
+# the search is done on the function args using the regex
+# it will then use the findings (if they exist) of the regex to populate a field in the reason for the crash
+g_log, .*"(.*)"

@@ -1,0 +1,11 @@
+# comma seperated file with a function, and library and/or source per line
+# the function names are literal matches against the backtrace
+# the libraries and source files are regex searched for
+# if a match is found then the next line will be marked as the first valid line to be guilty
+abort, /lib/libc.*\.so
+select, /lib/libc.*\.so
+backtrace, /lib/libc.*\.so
+raise, /lib/libc.*\.so
+syscall, /lib/libc.*\.so
+*__GI_abort, , abort\.c
+FatalError, /usr/bin/Xorg

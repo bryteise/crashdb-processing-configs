@@ -1,0 +1,5 @@
+# comma seperated file with two library filenames per line.
+# the two filenames will be considered to be the same during guilty processing
+# these library names will be interpreted literally (ie no regex)
+/usr/lib/libIMGegl.so, /usr/lib/libGLESv2.so.2
+/usr/lib/libEGL.so.1, /usr/lib/egl/egl_dri2.so

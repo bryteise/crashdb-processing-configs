@@ -1,0 +1,17 @@
+# list of library regex, one per line
+# processing will check if the current backtrace line's library matches
+# if a match is found then the line will be not be eligible to be guilty
+/lib/libglib-2\.0\.so
+/usr/lib/libgtk-x11-2\.0\.so
+/lib/libgio-2.0\.so
+/usr/lib/gio/modules/libgvfsdbus\.so
+/lib/libc.*\.so
+/lib/libpthread\.so
+/lib/libgthread-2\.0\.so
+/usr/lib/libstdc\+\+\.so
+/lib/libdbus-1\.so
+/usr/lib/libdbus-glib-1\.so
+/lib/libgcc_s\.so
+/usr/lib/libgconf-2\.so
+/lib/libgobject-2\.0\.so
+/usr/lib/libcorecatcher-1\.0.so

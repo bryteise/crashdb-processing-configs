@@ -1,0 +1,5 @@
+# comma seperated file with function library regex, one per line
+# processing will check if the current backtrace line's function matches exactly and then regex search to see if the library matches
+# if both match then the line will be not be eligible to be guilty
+dbus_message_unref, /lib/libdbus-1\.so
+XInternAtoms, /usr/lib/libX11\.so
